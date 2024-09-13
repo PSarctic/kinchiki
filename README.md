@@ -1,7 +1,8 @@
-# Кинчики
+# Кинчики  <img src="https://github.com/PSarctic/kinchiki/blob/main/screens/logo.png" width="50" height="50">
 *Мобильное приложение для Android/КИНО-игра для компании людей.*
 
-![logo](https://github.com/PSarctic/kinchiki/blob/main/screens/logo.png)
+
+<!-- ![logo](https://github.com/PSarctic/kinchiki/blob/main/screens/logo.png) -->
 
   - [Перед началом раунда:](#перед-началом-раунда)
   - [Начало раунда:](#начало-раунда)
