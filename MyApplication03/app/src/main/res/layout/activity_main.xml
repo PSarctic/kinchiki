@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/phone_black"
+    tools:context=".MainActivityPlayers">
+
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:src="@drawable/cinema6" />
+
+    <TextView
+        android:id="@+id/label_01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:text="Игроки"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/user_data"
+        android:layout_width="304dp"
+        android:layout_height="83dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Введите имя"
+        android:inputType="text"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/label_01" />
+
+    <Button
+        android:id="@+id/add_gamer"
+        android:layout_width="272dp"
+        android:layout_height="73dp"
+        android:layout_marginTop="5dp"
+        android:backgroundTint="#E86C09D6"
+        android:text="Добавить"
+        android:textColor="#FEFCFC"
+        android:textSize="28sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/user_data"
+        app:strokeColor="#FFFFFF"
+        app:strokeWidth="2dp" />
+
+    <ListView
+        android:id="@+id/list_view"
+        style="@style/MyTheme"
+        android:layout_width="399dp"
+        android:layout_height="416dp"
+        android:background="#5A000000"
+        android:layout_marginTop="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.515"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/add_gamer"
+        app:layout_constraintVertical_bias="0.137" />
+
+    <Button
+        android:id="@+id/ready_button"
+        android:layout_width="229dp"
+        android:layout_height="82dp"
+        android:layout_marginBottom="90dp"
+        android:backgroundTint="#68000000"
+        android:text="Играть"
+        android:textColor="#FEFCFC"
+        android:textSize="24sp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:strokeColor="@color/purple_contrast"
+        app:strokeWidth="2dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/activity2"
+    android:layout_height="match_parent"
+    android:background="@color/phone_black"
+    tools:context=".ClassicGame">
+
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:src="@drawable/cinema6" />
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="313dp"
+        android:layout_height="539dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.488">
+
+        <LinearLayout
+            android:id="@+id/newLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/textView3"
+        style="@style/BaseTextView"
+        android:layout_width="360dp"
+        android:layout_height="161dp"
+        android:layout_marginBottom="5dp"
+        android:text="TextView"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/scroll"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button_play"
+        android:layout_width="191dp"
+        android:layout_height="85dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#4D000000"
+        android:text="Играть"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scroll"
+        app:strokeColor="@color/pink_purple"
+        app:strokeWidth="2dp" />
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragmentContainerView3"
+        android:name="com.example.myapplication03.BlankFragment"
+        android:layout_width="355dp"
+        android:layout_height="631dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

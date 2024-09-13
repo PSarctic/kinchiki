@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/phone_black"
+    android:layout_height="match_parent"
+    tools:context=".CineBase">
+
+
+
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:src="@drawable/cinema6" />
+
+
+    <TextView
+        android:id="@+id/label_02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="КИНОбаза"
+        android:textColor="@color/white"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/user_cinema"
+        android:layout_width="304dp"
+        android:layout_height="83dp"
+        android:layout_marginTop="15dp"
+        android:background="#60000000"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Введите проект"
+        android:inputType="text"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/label_02" />
+
+    <Button
+        android:id="@+id/add_cinema"
+        android:layout_width="272dp"
+        android:layout_height="73dp"
+        android:layout_marginTop="5dp"
+        android:text="Добавить"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/blue_shadow"
+        android:textSize="28sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/user_cinema"
+        app:strokeColor="@color/white"
+        app:strokeWidth="2dp" />
+
+    <ListView
+        android:id="@+id/list_view2"
+        android:layout_width="406dp"
+        android:layout_height="523dp"
+        android:layout_marginTop="5dp"
+        android:background="#61000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/add_cinema">
+
+    </ListView>
+
+    <Button
+        android:id="@+id/ok"
+        android:layout_width="237dp"
+        android:layout_height="94dp"
+        android:layout_marginBottom="30dp"
+        android:text="Сохранить"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/black"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:strokeColor="@color/blue"
+        app:strokeWidth="2dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="phone_black">#141218</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="blue">#013FFA</color>
+    <color name="blue_shadow">#71013FFA</color>
+    <color name="purple">#6C09D6</color>
+    <color name="brown">#774818</color>
+    <color name="red">#D70A17</color>
+    <color name="orange">#E4760F</color>
+    <color name="yellow">#E8C226</color>
+    <color name="green_light">#58EB15</color>
+    <color name="green">#0D6503</color>
+    <color name="cyan">#0C97F4</color>
+    <color name="purple_contrast">#7B00FF</color>
+    <color name="pink_purple">#FFBF0DF5</color>
+
+
+
+</resources>

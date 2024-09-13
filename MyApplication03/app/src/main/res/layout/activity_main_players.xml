@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue"
+    tools:context=".MainActivityPlayers">
+
+    <TextView
+        android:id="@+id/label_01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:text="Игроки"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/user_data"
+        android:layout_width="304dp"
+        android:layout_height="83dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Введите имя"
+        android:inputType="text"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/label_01" />
+
+    <Button
+        android:id="@+id/add_gamer"
+        android:layout_width="272dp"
+        android:layout_height="73dp"
+        android:layout_marginTop="5dp"
+        android:backgroundTint="@color/purple"
+        android:text="Добавить"
+        android:textColor="#FEFCFC"
+        android:textSize="28sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/user_data"
+        app:strokeColor="#FFFFFF"
+        app:strokeWidth="2dp" />
+
+    <ListView
+        android:id="@+id/list_view"
+        style="l"
+        android:layout_width="399dp"
+        android:layout_height="468dp"
+        android:layout_marginTop="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.515"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/add_gamer"
+        app:layout_constraintVertical_bias="0.137" />
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="237dp"
+        android:layout_height="94dp"
+        android:layout_marginBottom="48dp"
+        android:backgroundTint="@color/purple"
+        android:text="Вернуться в Меню"
+        android:textColor="#FEFCFC"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:strokeColor="#FFFFFF"
+        app:strokeWidth="2dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
