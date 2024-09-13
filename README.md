@@ -1,5 +1,15 @@
 # Кинчики
-Мобильное приложение для Android/КИНО-игра для компании людей
+*Мобильное приложение для Android/КИНО-игра для компании людей.*
+
+
+  - [Перед началом раунда:](#перед-началом-раунда)
+  - [Начало раунда:](#начало-раунда)
+  - [Ход раунда:](#ход-раунда)
+  - [Конец раунда:](#конец-раунда)
+    - [Победа Шпиона:](#победа-шпиона)
+    - [Победа Киношников:](#победа-киношников)
+    - [Редактирование КИНОбазы](#редактирование-кинобазы)
+  - [Установка:](#установка)
 
 ## Перед началом раунда:
 Вводятся имена игроков (>=3)
@@ -33,3 +43,36 @@
 
 ## Установка:
 Для установки на мобильное устройство необходимо загрузить и установить файл `kinchiki_demo_v6.0.apk`.
+
+## Скиншоты:
+### Главное меню
+
+![main_menu](https://github.com/PSarctic/kinchiki/blob/main/screens/001.jpg)
+
+### Правила
+
+![rules](https://github.com/PSarctic/kinchiki/blob/main/screens/002.jpg)
+
+### Добавление игроков
+
+![add_gamers](https://github.com/PSarctic/kinchiki/blob/main/screens/003.jpg)
+
+### Раунд 1
+
+![round_1](https://github.com/PSarctic/kinchiki/blob/main/screens/004.jpg)
+
+### Раунд 2
+
+![round_2](https://github.com/PSarctic/kinchiki/blob/main/screens/005.jpg)
+
+### Карточка Киношника
+
+![not_spion](https://github.com/PSarctic/kinchiki/blob/main/screens/006.jpg)
+
+### Карточка Шпиона
+
+![spion](https://github.com/PSarctic/kinchiki/blob/main/screens/007.jpg)
+
+### КИНОбаза
+
+![cinebase](https://github.com/PSarctic/kinchiki/blob/main/screens/008.jpg)
